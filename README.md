@@ -1,8 +1,9 @@
 # samsung-galaxy-chromebook
 
-1) Specifications
+Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptop. The specs are impressive. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450 (just the laptop and charger).
 
-Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptop. The specs are impressive. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450.
+1) <b>Specifications</b>
+
 
 Processor / Chipset
 
@@ -173,3 +174,11 @@ Key Features
 360 degree rotating display
 
 Yes
+
+2) <b>Running Linux</b>
+
+3) <b>SSD Upgrade</b>
+
+I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
+
+Unfortunately, after running Recovery and messing around with it, the laptop gives "Chrome OS is missing or damaged" and unable to proceed further. I tried to install different operating systems such as Windows 10 and Ubuntu 21.04 on it, with success. I think it might be due to the WD 1TB uses 4096 physical sector size, causing trouble for Chromeos UEFI booting. This might be in the firmware or something. Just my wild guess.
