@@ -45,6 +45,15 @@ I run the following crouton to install Debian Bullseye:
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
+Go into chroot by running:
+      
+      sudo startcli
+
+Get more packages for qemu:
+
+      sudo apt install qemu qemu-kvm qemu-system-gui
+
+
 4) <b>SSD Upgrade</b>
 
 I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
