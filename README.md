@@ -29,18 +29,20 @@ Warranty: 1 Year<br>
 I prefer running Linux directly, using Crouton, after comparing built-in Linux Developer Environment and using Chromebrew.
 
 <ol>
-      <li>Built-in <b>Linux Developer Environment</b> is containerized VM, although it is quite usable, but it is a virtual machine environment nonetheless. Performance penalty will incur.</li>
+<li>Built-in <b>Linux Developer Environment</b> is a containerized VM, although it is quite usable, but it is a virtual machine environment nonetheless. Performance penalty will incur.</li>
 
-      <li><b>Chromebrew</b> (https://github.com/skycocker/chromebrew) is a chromebook package manager much like apt or dnf. In general, I feel that the disadvantage of size and complexity of the tool outweights its benefits. It works well for the situations where you need a couple of must-have tools.</li>
+<li><b>Chromebrew</b> (https://github.com/skycocker/chromebrew) is a chromebook package manager much like apt or dnf. In general, I feel that the disadvantage of size and complexity of the tool outweights its benefits. It works well for the situations where you need a couple of must-have tools.</li>
 
-      <li><b>Crouton</b> (https://github.com/dnschneid/crouton) is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos. In addition to xiwi which provides a X11 on chromeos, sommelier (https://github.com/jcdang/chromeos-ubuntu-sommelier) is available as well. Sommelier solution provides a more integrated solution and allows running Linux apps seamlessly.</li>
+<li><b>Crouton</b> (https://github.com/dnschneid/crouton) is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos. In addition to xiwi which provides a X11 on chromeos, sommelier (https://github.com/jcdang/chromeos-ubuntu-sommelier) is available as well. Sommelier solution provides a more integrated solution and allows running Linux apps seamlessly.</li>
 
 </ol>
 
 I run the following crouton to install Debian Bullseye:
       crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
-  
-3) <b>SSD Upgrade</b>
+      
+3) Running Windows VM
+
+4) <b>SSD Upgrade</b>
 
 I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
 
