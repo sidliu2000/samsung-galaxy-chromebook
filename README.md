@@ -1,6 +1,6 @@
-# samsung-galaxy-chromebook
+# Samsung Galaxy Chromebook
 
-This simple page documents my experience with Samsung Galaxy Chromebook. Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptops. The specs are impressive (comparing to chromebooks, slightly above average comparing to other Windows laptops). Screen is gorgeous, performance is top notch, and the included pen is a delight to use. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450 (just the laptop and charger) in March, 2021. I wish that the battery would last longer and hard drive is bigger, given my intention of using this as my Linux development laptop.
+This simple page documents my experience with Samsung Galaxy Chromebook. Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptops. The specs are impressive (comparing to chromebooks, slightly above average comparing to other Windows laptops). Screen is gorgeous, performance is top notch, and the included pen is a delight to use. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450 (just the laptop and charger) in March, 2021. I wish that the battery would last longer and hard drive is bigger, given my intention of using this as my Linux development laptop. Overall, much better deal comparing to the Samsung Galaxy Chromebook 2 (botched).
 
 1) <b>Specifications</b>
 
