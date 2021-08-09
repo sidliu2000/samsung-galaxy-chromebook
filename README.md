@@ -26,6 +26,14 @@ Warranty: 1 Year<br>
 
 2) <b>Running Linux</b>
 
+I prefer running Linux directly, using Crouton, after comparing running built-in Linux apps and using Chromebrew here: https://github.com/skycocker/chromebrew
+
+Built-in Linux Developer Environment is containerized VM, although it is quite usable, but it is a virtual machine environment nontheless. Performance penalty will incur. 
+
+Chromebrew works well for the situations where you need a couple of must-have tools.
+
+Crouton is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos.
+
 3) <b>SSD Upgrade</b>
 
 I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
