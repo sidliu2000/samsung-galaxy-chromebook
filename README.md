@@ -1,6 +1,6 @@
 # samsung-galaxy-chromebook
 
-Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptop. The specs are impressive. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450 (just the laptop and charger).
+Samsung Galaxy Chromebook is a great performmance laptop, comparable to other capable Windows laptops. The specs are impressive. Screen is gorgeous, performance is top notch. Pen is a delight to use. That's why I couldn't resist the bargain when I saw Best Buy had a practically new one for sale for $450 (just the laptop and charger) in March, 2021. I wish that the battery would last longer and hard drive is bigger, given my intention of using this as my Linux development laptop. 
 
 1) <b>Specifications</b>
 
@@ -26,14 +26,17 @@ Warranty: 1 Year<br>
 
 2) <b>Running Linux</b>
 
-I prefer running Linux directly, using Crouton, after comparing running built-in Linux apps and using Chromebrew here: https://github.com/skycocker/chromebrew
+I prefer running Linux directly, using Crouton, after comparing built-in Linux Developer Environment and using Chromebrew.
 
-Built-in Linux Developer Environment is containerized VM, although it is quite usable, but it is a virtual machine environment nonetheless. Performance penalty will incur. 
+<li>Built-in Linux Developer Environment is containerized VM, although it is quite usable, but it is a virtual machine environment nonetheless. Performance penalty will incur. 
 
-Chromebrew works well for the situations where you need a couple of must-have tools.
+<li>Chromebrew (https://github.com/skycocker/chromebrew) is a chromebook package manager much like apt or dnf. In general, I feel that the disadvantage of size and complexity of the tool outweights its benefits. It works well for the situations where you need a couple of must-have tools.
 
-Crouton (https://github.com/dnschneid/crouton) is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos. In addition to xiwi which provides a X11 on chromeos, sommelier (https://github.com/jcdang/chromeos-ubuntu-sommelier) is available as well. Sommelier solution feels more integrated and allows running Linux apps seamlessly.
+<li>Crouton (https://github.com/dnschneid/crouton) is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos. In addition to xiwi which provides a X11 on chromeos, sommelier (https://github.com/jcdang/chromeos-ubuntu-sommelier) is available as well. Sommelier solution provides a more integrated solution and allows running Linux apps seamlessly.
 
+I run the following crouton to install Debian Bullseye:
+      crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
+  
 3) <b>SSD Upgrade</b>
 
 I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
