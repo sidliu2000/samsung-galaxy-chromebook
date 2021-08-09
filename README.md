@@ -40,7 +40,7 @@ I prefer running Linux directly, using Crouton, after comparing built-in Linux D
 I run the following crouton to install Debian Bullseye:
       crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
       
-3) Running Windows VM
+3) <b>Running Windows VM</b>
 
 4) <b>SSD Upgrade</b>
 
