@@ -28,11 +28,11 @@ Warranty: 1 Year<br>
 
 I prefer running Linux directly, using Crouton, after comparing running built-in Linux apps and using Chromebrew here: https://github.com/skycocker/chromebrew
 
-Built-in Linux Developer Environment is containerized VM, although it is quite usable, but it is a virtual machine environment nontheless. Performance penalty will incur. 
+Built-in Linux Developer Environment is containerized VM, although it is quite usable, but it is a virtual machine environment nonetheless. Performance penalty will incur. 
 
 Chromebrew works well for the situations where you need a couple of must-have tools.
 
-Crouton is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos.
+Crouton (https://github.com/dnschneid/crouton) is a chroot environment, much closer to native Chromeos. The performance difference is almost negligible. I also like the fact that it is somewhat isolated from the chromeos. In addition to xiwi which provides a X11 on chromeos, sommelier (https://github.com/jcdang/chromeos-ubuntu-sommelier) is available as well. Sommelier solution feels more integrated and allows running Linux apps seamlessly.
 
 3) <b>SSD Upgrade</b>
 
