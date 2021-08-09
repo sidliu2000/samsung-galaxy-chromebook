@@ -43,6 +43,8 @@ I run the following crouton to install Debian Bullseye:
       
 3) <b>Running Windows VM</b>
 
+<img src="chrome-windows-vm.png" alt="Chromebook Windows 11">
+
 4) <b>SSD Upgrade</b>
 
 I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
