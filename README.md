@@ -43,7 +43,7 @@ I run the following crouton to install Debian Bullseye:
       
 3) <b>Running Windows VM</b>
 
-<img src="chrome-windows-vm.png" alt="Chromebook Windows 11">
+<img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
 4) <b>SSD Upgrade</b>
 
