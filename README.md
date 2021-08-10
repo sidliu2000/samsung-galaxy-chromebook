@@ -41,6 +41,8 @@ I run the following crouton to install Debian Bullseye:
 
       crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
       
+To be continued.
+
 3) <b>Running Windows VM</b>
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
@@ -53,6 +55,7 @@ Get more packages for qemu:
 
       sudo apt install qemu qemu-kvm qemu-system-gui
 
+To be continued.
 
 4) <b>SSD Upgrade</b>
 
