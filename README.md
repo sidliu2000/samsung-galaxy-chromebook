@@ -56,7 +56,7 @@ Get more packages for qemu:
 
 4) <b>SSD Upgrade</b>
 
-I got a Western Digital 1TB NVME 2230 SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
+I got a Western Digital CH SN530 1TB 2230 NVME SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
 
 Unfortunately, after running Recovery and messing around with it, the laptop gives "Chrome OS is missing or damaged" and unable to proceed further. I tried to install different operating systems such as Windows 10 and Ubuntu 21.04 on it on a different laptop, with success. I think it might be due to the WD 1TB uses 4096 physical sector size, causing trouble for Chromeos UEFI booting. This might be in the firmware or something. Just my wild guess.
       
