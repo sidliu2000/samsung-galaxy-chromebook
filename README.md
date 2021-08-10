@@ -61,3 +61,7 @@ I got a Western Digital CH SN530 1TB 2230 NVME SSD, after seeing this video http
 Unfortunately, after running Recovery and messing around with it, the laptop gives "Chrome OS is missing or damaged" and unable to proceed further. I tried to install different operating systems such as Windows 10 and Ubuntu 21.04 on it on a different laptop, with success. I think it might be due to the WD 1TB uses 4096 physical sector size, causing trouble for Chromeos UEFI booting. This might be in the firmware or something. Just my wild guess.
       
 For now, I will just put this SSD into a NVME enclosure, and use it as a portable USB.
+
+5) <b>Firmware Upgrade</b>
+
+Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS, which I am not ready to do yet, because I am actually a fan of Chromeos. I had a older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I tried out the <a href="https://galliumos.org/">GalliumOS</a> on it and it works quite good, but I eventually recovered back to Chromeos.
