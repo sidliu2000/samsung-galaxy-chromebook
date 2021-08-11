@@ -47,6 +47,8 @@ To be continued.
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
+Why? Firstly, because I can! :) Secondly, it's for those occasions that Windows is the only supported option.
+
 Go into chroot by running:
       
       sudo startcli
@@ -55,6 +57,24 @@ Get more packages for qemu:
 
       sudo apt install qemu qemu-kvm qemu-system-gui
 
+This is the qemu command line options I use to run Windows 11 VM:
+
+      qemu-system-x86_64 \
+        -m 4096 \
+        -smp 2 \
+        -vga qxl \
+        -display default,show-cursor=on \
+        -usb \
+        -device usb-tablet \
+        -device usb-mouse \
+        -machine type=q35,accel=kvm \
+        -bios /usr/share/OVMF/OVMF_CODE.fd \
+        -boot order=c \
+        -cdrom /home/<user>/Downloads/VM/virtio-win-0.1.190.iso \
+        -drive file=/home/<user>/Downloads/VM/win11.qcow2,if=virtio \
+        -drive file=/home/<user>/Downloads/VM/data.qcow2,if=virtio \
+        -cpu Skylake-Client-IBRS
+        
 To be continued.
 
 4) <b>SSD Upgrade</b>
