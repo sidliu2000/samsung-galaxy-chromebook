@@ -41,6 +41,12 @@ I run the following crouton to install Debian Bullseye:
 
       crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
       
+What <b>does NOT</b> work in crouton:
+
+<ul>
+<li>docker - Unfortunately, I am unable to get docker to work in chroot environment. Got error message: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. However, docker works with Crostini container.</li>
+</ul>
+    
 To be continued.
 
 3) <b>Running Windows VM</b>
