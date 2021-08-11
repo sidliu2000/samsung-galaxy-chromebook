@@ -47,7 +47,7 @@ To be continued.
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
-Why? Firstly, because I can! :) Secondly, it's for those occasions that Windows is the only supported option.
+Why? First of all, because I can! :) Secondly, it's for those occasions that Windows is the only supported option.
 
 Go into chroot by running:
       
