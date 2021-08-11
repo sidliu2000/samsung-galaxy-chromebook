@@ -91,8 +91,8 @@ Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here http
 
 I had an older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I tried out the <a href="https://galliumos.org/">GalliumOS</a> on it and it works quite well, but I eventually recovered back to Chromeos, dedicating Samsung Chromebook 3 to just browsing and viewing. It's not powerful enough to do anything other than those simple activities. That's why I was thinking about getting Samsung Galaxy Chromebook instead.
 
-6) Experimenting with different Linux distro
+6) <b>Experimenting with different Linux distros with Crostini</b>
 
-Here is where Crostini LXD container approach shines: you can install multiple linux distro containers even though the default container is Debian Buster.
+With Crouton, you can install different Linux distros. For the most part, only Debian and Ubuntu work well. Using Crostini LXD container makes it easier to install different distros: you can have multiple linux distro containers at the same time, even though the default container is Debian Buster.
 
 To be continued.
