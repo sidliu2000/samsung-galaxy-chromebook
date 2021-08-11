@@ -90,3 +90,9 @@ For now, I will just put this SSD into a NVME enclosure, and use it as a portabl
 Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS. I am not ready to do that just yet, because I am not sure if I could recover back to Chromeos, and I am actually a fan of Chromeos. 
 
 I had an older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I tried out the <a href="https://galliumos.org/">GalliumOS</a> on it and it works quite well, but I eventually recovered back to Chromeos, dedicating Samsung Chromebook 3 to just browsing and viewing. It's not powerful enough to do anything other than those simple activities. That's why I was thinking about getting Samsung Galaxy Chromebook instead.
+
+6) Experimenting with different Linux distro
+
+Here is where Crostini LXD container approach shines: you can install multiple linux distro containers even though the default container is Debian Buster.
+
+To be continued.
