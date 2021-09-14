@@ -49,7 +49,13 @@ What <b>does NOT</b> work in crouton:
     
 To be continued.
 
-3) <b>Running Windows VM</b>
+3) <b>Sommelier vs xiwi</b>
+
+I have switched to Sommelier that integrates more natively and more responsive.
+
+To be continued.
+
+4) <b>Running Windows VM</b>
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
@@ -83,7 +89,7 @@ This is the qemu command line options I use to run Windows 11 VM:
         
 To be continued.
 
-4) <b>SSD Upgrade</b>
+5) <b>SSD Upgrade</b>
 
 I got a Western Digital CH SN530 1TB 2230 NVME SSD, after seeing this video https://www.youtube.com/watch?v=QAyFRj-gORI.
 
@@ -91,13 +97,13 @@ Unfortunately, after running Recovery and messing around with it, the laptop giv
       
 For now, I will just put this SSD into a NVME enclosure, and use it as a portable USB, until newer versions of Chromeos support this SSD, hopefully soon.
 
-5) <b>Firmware Upgrade</b>
+6) <b>Firmware Upgrade</b>
 
 Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS. I am not ready to do that just yet, because I am not sure if I could recover back to Chromeos, and I am actually a fan of Chromeos. 
 
 I had an older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I tried out the <a href="https://galliumos.org/">GalliumOS</a> on it and it works quite well, but I eventually recovered back to Chromeos, dedicating Samsung Chromebook 3 to just browsing and viewing. It's not powerful enough to do anything other than those simple activities. That's why I was thinking about getting Samsung Galaxy Chromebook instead.
 
-6) <b>Experimenting with different Linux distros with Crostini</b>
+7) <b>Experimenting with different Linux distros with Crostini</b>
 
 With Crouton, you can install different Linux distros. For the most part, only Debian and Ubuntu work well. Using Crostini LXD container makes it easier to install different distros: you can have multiple linux distro containers at the same time, even though the default container is Debian Buster.
 
