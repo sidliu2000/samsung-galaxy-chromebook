@@ -47,8 +47,6 @@ What <b>does NOT</b> work in crouton:
 <li>docker - Unfortunately, I am unable to get docker to work in chroot environment. Got error message: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. However, docker works with Crostini container.</li>
 </ul>
     
-To be continued.
-
 3) <b>Sommelier vs xiwi vs Native Wayland</b>
 
 Sommelier provides support to run X apps via Xwayland. Comparing to xiwi, a chrome extension, it's much more natural and responsive. However, native Chromebook Wayland support integrates with ChromeOS directly. Apps runs natively and in almost bare metal speed. I start to use only apps that support wayland, eliminating the steps that launches sommelier to support xwayland. But running sommelier might still be needed if your apps do not support wayland yet. Some apps, such as chromium browser, additional option <i>--ozone-platform=wayland</i> needs to be appended to the command.
