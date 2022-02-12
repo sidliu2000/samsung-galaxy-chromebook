@@ -49,11 +49,33 @@ What <b>does NOT</b> work in crouton:
     
 To be continued.
 
-3) <b>Sommelier vs xiwi</b>
+3) <b>Sommelier vs xiwi vs Native Wayland</b>
 
-I have switched to Sommelier that integrates more natively and more responsive.
+Sommelier provides support to run X apps via Xwayland. Comparing to xiwi, a chrome extension, it's much more natural and responsive. However, native Chromebook Wayland support integrates with ChromeOS directly. Apps runs natively and in almost bare metal speed. I start to use only apps that support wayland, eliminating the steps that launches sommelier to support xwayland. But running sommelier might still be needed if your apps do not support wayland yet.
 
-To be continued.
+      sommelier -X --x-display=:0 --no-exit-with-child /bin/sh -c "~/sommelierrc" &
+
+The only thing in chroot CLI environment needs to source the following:
+
+      export GDK_BACKEND=wayland
+      export CLUTTER_BACKEND=wayland
+      export XDG_RUNTIME_DIR='/var/run/chrome'
+      export WAYLAND_DISPLAY=wayland-0
+      export DISPLAY=:0
+      #alias sommelier="${HOME}/Downloads/sommelier/bin/sommelier -X --x-display=:0"
+
+      if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+                 ## if not found, launch a new one
+                 eval `dbus-launch --sh-syntax`
+                 ##echo "D-Bus per-session daemon address is: $DBUS_SESSION_BUS_ADDRESS"
+      fi
+      export DBUS_SYSTEM_BUS_ADDRESS='unix:path=/var/host/dbus/system_bus_socket'
+
+      # add the following to enable Qt5 wayland related apps, such as Calibre, Okular
+      # but no titlebar is shown.
+
+      #export QT_QPA_PLATFORM=wayland-egl falkon
+
 
 4) <b>Running Windows VM</b>
 
