@@ -81,7 +81,7 @@ The only thing a chroot CLI environment needs is to source the following:
 
 <img src="chromebook-windows.png" alt="Chromebook Windows 11">
 
-Why? First of all, because I can! :) Secondly, it's for those occasions that Windows is the only supported option.
+Why? First of all, because I can! :) Secondly, it's for those occasions that Windows is the only supported option. I have been using Windows 11 VM for a while now. It runs quite well and stable and performance is quite good.
 
 Go into chroot by running:
       
@@ -109,7 +109,6 @@ This is the qemu command line options I use to run Windows 11 VM:
         -drive file=/home/<user>/Downloads/VM/data.qcow2,if=virtio \
         -cpu Skylake-Client-IBRS
         
-To be continued.
 
 5) <b>SSD Upgrade</b>
 
