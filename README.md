@@ -51,11 +51,11 @@ To be continued.
 
 3) <b>Sommelier vs xiwi vs Native Wayland</b>
 
-Sommelier provides support to run X apps via Xwayland. Comparing to xiwi, a chrome extension, it's much more natural and responsive. However, native Chromebook Wayland support integrates with ChromeOS directly. Apps runs natively and in almost bare metal speed. I start to use only apps that support wayland, eliminating the steps that launches sommelier to support xwayland. But running sommelier might still be needed if your apps do not support wayland yet.
+Sommelier provides support to run X apps via Xwayland. Comparing to xiwi, a chrome extension, it's much more natural and responsive. However, native Chromebook Wayland support integrates with ChromeOS directly. Apps runs natively and in almost bare metal speed. I start to use only apps that support wayland, eliminating the steps that launches sommelier to support xwayland. But running sommelier might still be needed if your apps do not support wayland yet. Some apps, such as chromium browser, additional option <i>--ozone-platform=wayland</i> needs to be appended to the command.
 
       sommelier -X --x-display=:0 --no-exit-with-child /bin/sh -c "~/sommelierrc" &
 
-The only thing in chroot CLI environment needs to source the following:
+The only thing a chroot CLI environment needs is to source the following:
 
       export GDK_BACKEND=wayland
       export CLUTTER_BACKEND=wayland
