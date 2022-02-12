@@ -89,7 +89,7 @@ Go into chroot by running:
 
 Get more packages for qemu:
 
-      sudo apt install qemu qemu-kvm qemu-system-gui
+      sudo apt install qemu qemu-kvm
 
 This is the qemu command line options I use to run Windows 11 VM:
 
