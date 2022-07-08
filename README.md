@@ -116,6 +116,8 @@ Unfortunately, after running Recovery and messing around with it, the laptop giv
       
 For now, I will just put this SSD into a NVME enclosure, and use it as a portable USB, until newer versions of Chromeos support this SSD, hopefully soon.
 
+UPDATE: As of July 8th, 2022, I can report that Version 103.0.5060.114 works fine with this 1TB SSD!
+
 6) <b>Firmware Upgrade</b>
 
 Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. You can follow this Multiboot guide https://github.com/olm3ca/Galaxy-Chromebook on how to multiboot linux or Windows 11, even Mac. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS. I am not ready to do that just yet, because I am not sure if I could recover back to Chromeos, and I am actually a fan of Chromeos. 
