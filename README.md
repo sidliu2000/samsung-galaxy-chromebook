@@ -128,6 +128,8 @@ I had an older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I t
 
 UPDATE: Nov 22nd, 2022. Because of WD 1TB SSD Sleep problem, I finally took the plunge and flashed the firmware to full UEFI. I also installed Brunch ChromeOS version 107. It's working perfect! Fedora 36 is almost fully working, with some errors in dmesg for audio but audio is working. No internal Mic. Also installed a grub2 4k theme so that grub boot menu is not so tiny.
 
+To flash full UEFI firmware, before running mrchromebox's script, remember to save the Rom backup. Disconnect the battery to disable Write Protect.
+
 7) <b>Experimenting with different Linux distros with Crostini</b>
 
 With Crouton, you can install different Linux distros. For the most part, only Debian and Ubuntu work well. Using Crostini LXD container makes it easier to install different distros: you can have multiple linux distro containers at the same time, even though the default container is Debian Buster.
