@@ -117,12 +117,15 @@ Unfortunately, after running Recovery and messing around with it, the laptop giv
 For now, I will just put this SSD into a NVME enclosure, and use it as a portable USB, until newer versions of Chromeos support this SSD, hopefully soon.
 
 UPDATE: As of July 8th, 2022, I can report that Version 103.0.5060.114 works fine with this 1TB SSD!
+UPDATE: As of Nov 22nd, 2022, WD 1TB SSD causing sleep problem. 
 
 6) <b>Firmware Upgrade</b>
 
 Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. You can follow this Multiboot guide https://github.com/olm3ca/Galaxy-Chromebook on how to multiboot linux or Windows 11, even Mac. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS. I am not ready to do that just yet, because I am not sure if I could recover back to Chromeos, and I am actually a fan of Chromeos. 
 
 I had an older Samsung Chromebook 3 that has support for RW_LEGACY Firmware. I tried out the <a href="https://galliumos.org/">GalliumOS</a> on it and it works quite well, but I eventually recovered back to Chromeos, dedicating Samsung Chromebook 3 to just browsing and viewing. It's not powerful enough to do anything other than those simple activities. That's why I was thinking about getting Samsung Galaxy Chromebook instead.
+
+UPDATE: Nov 22nd, 2022. Because of WD 1TB SSD Sleep problem, I finally took the plunge and flashed the firmware to full UEFI. I also installed Brunch ChromeOS version 107. It's working perfect! Fedora 36 is almost fully working, with some errors in dmesg for audio but audio is working. No internal Mic. Also installed a grub2 4k theme so that grub boot menu is not so tiny.
 
 7) <b>Experimenting with different Linux distros with Crostini</b>
 
