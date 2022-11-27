@@ -117,6 +117,7 @@ Unfortunately, after running Recovery and messing around with it, the laptop giv
 For now, I will just put this SSD into a NVME enclosure, and use it as a portable USB, until newer versions of Chromeos support this SSD, hopefully soon.
 
 UPDATE: As of July 8th, 2022, I can report that Version 103.0.5060.114 works fine with this 1TB SSD!
+
 UPDATE: As of Nov 22nd, 2022, WD 1TB SSD causing sleep problem. 
 
 6) <b>Firmware Upgrade</b>
