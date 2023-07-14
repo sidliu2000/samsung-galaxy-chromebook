@@ -46,7 +46,9 @@ What <b>does NOT</b> work in crouton:
 <ul>
 <li>docker - Unfortunately, I am unable to get docker to work in chroot environment. Got error message: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. However, docker works with Crostini container.</li>
 </ul>
-    
+
+UPDATE: As of July 15th, 2023, crouton is no longer being developed and maintained. Many things are broken, e.g., the above command gave an error, unable to install. I have since switched to Depthboot approach described below.
+
 3) <b>Sommelier vs xiwi vs Native Wayland</b>
 
 Sommelier provides support to run X apps via Xwayland. Comparing to xiwi, a chrome extension, it's much more natural and responsive. However, native Chromebook Wayland support integrates with ChromeOS directly. Apps runs natively and in almost bare metal speed. I start to use only apps that support wayland, eliminating the steps that launches sommelier to support xwayland. But running sommelier might still be needed if your apps do not support wayland yet. Some apps, such as chromium browser, additional option <i>--ozone-platform=wayland</i> needs to be appended to the command.
@@ -120,7 +122,7 @@ UPDATE: As of July 8th, 2022, I can report that Version 103.0.5060.114 works fin
 
 UPDATE: As of Nov 22nd, 2022, WD 1TB SSD causing sleep problem. 
 
-6) <b>Firmware Upgrade</b>
+6) <b>Firmware Update</b>
 
 Samsung Galaxy Chromebook has a UEFI Firmware (Full ROM) available now here https://mrchromebox.tech/#devices. You can follow this Multiboot guide https://github.com/olm3ca/Galaxy-Chromebook on how to multiboot linux or Windows 11, even Mac. What that means is that, if you install this UEFI firmware, you will have to blow away ChromeOS. I am not ready to do that just yet, because I am not sure if I could recover back to Chromeos, and I am actually a fan of Chromeos. 
 
@@ -140,3 +142,6 @@ With Crouton, you can install different Linux distros. For the most part, only D
 This approach has the advantage of not having to flash UEFI firmware, so that you can easily go back and forth between ChromeOS and Fedora 38. With this approach, everything is working, 100%, including internal mic.
 
 One additional step for WD 1TB 2230 NVME SSD is to run modify-cmdline to add mem_sleep_default=deep to kernel options.
+
+As of July 15th, 2023, Depthboot is my daily driver. 
+
