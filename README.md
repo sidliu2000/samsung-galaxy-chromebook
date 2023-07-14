@@ -143,5 +143,5 @@ This approach has the advantage of not having to flash UEFI firmware, so that yo
 
 One additional step for WD 1TB 2230 NVME SSD is to run modify-cmdline to add mem_sleep_default=deep to kernel options.
 
-As of July 15th, 2023, Depthboot is my daily driver. 
+As of July 15th, 2023, Depthboot Fedora 38 is my daily driver. Quite happy with the performance!
 
