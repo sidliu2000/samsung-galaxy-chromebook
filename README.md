@@ -137,7 +137,7 @@ One last thing, add mem_sleep_default=deep to kernel options if sleep is not wor
 
 With Crouton, you can install different Linux distros. For the most part, only Debian and Ubuntu work well. Using Crostini LXD container makes it easier to install different distros: you can have multiple linux distro containers at the same time, even though the default container is Debian Buster.
 
-8) A new approaching without flashing UEFI firmware, Depthboot<a href="https://eupnea-linux.github.io/">
+8) A new approaching without flashing UEFI firmware, <a href="https://eupnea-linux.github.io/">Depthboot</a>
 
 This approach has the advantage of not having to flash UEFI firmware, so that you can easily go back and forth between ChromeOS and Fedora 38. With this approach, everything is working, 100%, including internal mic.
 
