@@ -139,7 +139,7 @@ With Crouton, you can install different Linux distros. For the most part, only D
 
 8) A new approach without flashing UEFI firmware, <a href="https://eupnea-linux.github.io/">Depthboot</a> / <a href="https://cb-linux.github.io/breath/">Breath</a>
 
-This approach has the advantage of not having to flash UEFI firmware, so that you can easily go back and forth between ChromeOS and Fedora 38. With this approach, everything is working, 100%, including internal mic, because it uses ChromeOS kernel. This also avoids troubles of having to prevent linux updating the kernel. As of June, 2023, I am running on Depthboot Fedora 38. 
+This approach has the advantage of not having to flash UEFI firmware, so that you can easily go back and forth between ChromeOS and Fedora 38. With this approach, everything is working, 100%, including internal mic, because it uses ChromeOS kernel. This also avoids troubles of having to prevent linux updating the kernel.  
 
 One additional step for WD 1TB 2230 NVME SSD is to run modify-cmdline to add mem_sleep_default=deep to kernel options.
 
