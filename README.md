@@ -43,7 +43,7 @@ I run the following crouton to install Debian Bullseye:
 
 With Crouton no longer supported (09/2023), crouton is devolved into, or you will set error messages:
 
-      sudo CROUTON_BRANCH=silence -r bookworm -t x11,xorg,cli-extra,xfce
+      sudo CROUTON_BRANCH=silence crouton -r bookworm -t x11,xorg,cli-extra,xfce
       
 What <b>does NOT</b> work in crouton:
 
