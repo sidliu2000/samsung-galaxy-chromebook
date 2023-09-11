@@ -39,7 +39,11 @@ I prefer running Linux directly, using Crouton, after comparing built-in Linux D
 
 I run the following crouton to install Debian Bullseye:
 
-      crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
+      sudo crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
+
+With Crouton no longer supported (09/2023), crouton is devolved into:
+
+      sudo CROUTON_BRANCH=silence -r bookworm -t x11,xorg,cli-extra,xfce
       
 What <b>does NOT</b> work in crouton:
 
