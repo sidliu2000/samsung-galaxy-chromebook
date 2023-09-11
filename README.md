@@ -41,7 +41,7 @@ I run the following crouton to install Debian Bullseye:
 
       sudo crouton -r bullseye -t x11,xorg,xiwi,cli-extra,audio,keyboard,extension,xfce
 
-With Crouton no longer supported (09/2023), crouton is devolved into:
+With Crouton no longer supported (09/2023), crouton is devolved into, or you will set error messages:
 
       sudo CROUTON_BRANCH=silence -r bookworm -t x11,xorg,cli-extra,xfce
       
